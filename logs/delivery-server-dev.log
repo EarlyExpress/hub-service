@@ -1,0 +1,693 @@
+2025-11-18 11:11:11 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:11:11 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:11:11 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@4421f797 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@5a9f7cc5]]
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:11:16 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:11:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:11:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:11:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:11:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@522a2503 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@163088a3]]
+2025-11-18 11:11:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:11:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:11:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@5de658bd instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@7c3e7e90]]
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:11:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:11:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:11:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@7fbf5e29 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@6d58b4ed]]
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:11:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@2143a4b instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@dd11e67]]
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:11:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:11:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:11:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@81a57e2 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@20cd75d0]]
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:11:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@328d5e0 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@60fd1c4]]
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:11:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:11:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:11:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@5c7033a0 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@1758be0b]]
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:11:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@529afed5 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@2a6394b3]]
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:11:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:11:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:11:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:11:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:11:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@77d35f6c instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@25290f7b]]
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@2040215d instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@1630ffea]]
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:12:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@7b75ea7f instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@16ca60bd]]
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:12:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@3721f1f0 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@267f9751]]
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@728db7f3 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@3787fe97]]
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:12:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@f1137e6 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@558efc4a]]
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:27 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@4aa3fb27 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@4258d7a2]]
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:32 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:12:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@44f07608 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@663ebe70]]
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:37 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@33911b53 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@37f03f44]]
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:42 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:12:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@70775f84 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@63a9a2c4]]
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:47 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@58596661 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@6e656831]]
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:12:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:12:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@24248106 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@ab5b8c4]]
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:12:57 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@19ccbd9d instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@5c2d7a75]]
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:02 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:13:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@5c01fc47 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@7bd50c9b]]
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:07 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@7897629 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@30c05a7f]]
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:12 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:13:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@309202d5 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@7ce612d0]]
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:17 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@4e47bc91 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@2e0851f6]]
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:13:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@eac6a48 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@421099df]]
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@31c00638 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@5dab6617]]
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:13:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@30b8a9c0 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@76a01069]]
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@47603943 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@417d6466]]
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:13:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@347e3320 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@42ab5e9e]]
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@4c7dda9 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@2e33c703]]
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:53 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:13:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:13:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:57 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@6b9116d6 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@73d6ea94]]
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:13:58 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@49465bd2 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@79fd9626]]
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:14:03 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:14:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:14:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:07 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@1a391869 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@5e7fc3f0]]
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:14:08 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@251c9b26 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@30c56505]]
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:14:13 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:14:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:14:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:17 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@626dc924 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@42ade6da]]
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:14:18 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@3299002 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@18df202f]]
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:14:23 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:14:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:14:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:27 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@14f7fef9 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@39c1418b]]
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:14:28 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@76a76f31 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@1718f792]]
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:14:33 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:14:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:14:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:37 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@3c33d3be instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@fcd10aa]]
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:14:38 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@42de3885 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@122af32b]]
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:14:43 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
+2025-11-18 11:14:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://192.168.0.56:3151/eureka/apps/DELIVERY-SERVER/192.168.0.22:4003?status=UP&lastDirtyTimestamp=1763427955629
+2025-11-18 11:14:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:47 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DELIVERY-SERVER/192.168.0.22:4003 - Heartbeat status: 200
+2025-11-18 11:14:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://192.168.0.56:3151/eureka/apps/delta
+2025-11-18 11:14:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-11-18 11:14:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-11-18 11:14:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-11-18 11:14:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_6_
+2025-11-18 11:14:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-11-18 11:14:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 6
+2025-11-18 11:14:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Locating configserver (config-server) via discovery
+2025-11-18 11:14:48 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider finding instances for config-server
+2025-11-18 11:14:49 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.netflix.discovery.shared.Applications]
+2025-11-18 11:14:49 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.n.e.c.EurekaConfigServerInstanceProvider - eurekaConfigServerInstanceProvider found 1 instance(s) for config-server, [[EurekaServiceInstance@30a67cf3 instance = InstanceInfo [instanceId = config-server:config-server:3100, appName = CONFIG-SERVER, hostName = 192.168.0.56, status = UP, ipAddr = 172.18.0.11, port = 3100, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@5709720d]]
+2025-11-18 11:14:49 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Located configserver (config-server) via discovery. No of instances found: 1
+2025-11-18 11:14:49 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.c.c.ConfigServerConfigDataLocationResolver - Updating config uris to [http://192.168.0.56:3100/]
+2025-11-18 11:14:49 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_6_, is fetching remote regions? false 
