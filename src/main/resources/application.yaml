@@ -62,9 +62,11 @@ spring:
       ack-mode: manual  # 수동 승인 모드 (메시지 처리 보장)
       concurrency: 3  # 동시 처리 리스너 수
 
+
+
 # ===== 서버 포트 설정 =====
 server:
-  port: ${APP_PORT:4000}  # 서비스 포트 (환경변수로 오버라이드 가능)
+  port: ${APP_PORT:4010}  # 서비스 포트 (환경변수로 오버라이드 가능)
   shutdown: graceful  # 종료 (진행중인 요청 완료 후 종료)
 
 # ===== Eureka Client 설정 =====
@@ -116,6 +118,7 @@ springdoc:
 
 # 예시 2: 특정 서비스의 Kafka 토픽 커스터마이징
 # spring:
+#   cloud:
 #   cloud:
 #     stream:
 #       bindings:
