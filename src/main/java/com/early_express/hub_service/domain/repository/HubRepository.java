@@ -1,7 +1,6 @@
-package com.early_express.hub_service.infrastructure.presentation;
+package com.early_express.hub_service.domain.repository;
 
 import com.early_express.hub_service.domain.entity.HubEntity;
-import com.early_express.hub_service.domain.entity.HubId;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
