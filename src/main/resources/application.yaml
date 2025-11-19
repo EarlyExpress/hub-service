@@ -10,7 +10,7 @@ spring:
 
   # ===== 프로파일 설정 =====
   profiles:
-    active: ${APP_PROFILE:local}  # 활성 프로파일 (local, dev, staging, prod)
+    active: ${APP_PROFILE:dev}  # 활성 프로파일 (local, dev, staging, prod)
 
   # ===== Config Server 연결 설정 =====
   # Eureka를 통해 Config Server를 자동으로 찾아 설정을 가져옴
@@ -19,16 +19,17 @@ spring:
   cloud:
     config:
       discovery:
-        enabled: true  # Eureka를 통한 Config Server 자동 탐색
+        enabled: false  # Eureka를 통한 Config Server 자동 탐색
         service-id: config-server  # Config Server의 Eureka 서비스 ID
       allow-override: true  # 로컬 설정으로 Config Server 설정 오버라이드 허용
       override-none: true  # Config Server 설정이 없을 때 로컬 설정 사용
       override-system-properties: false  # 시스템 프로퍼티는 오버라이드하지 않음
       fail-fast: false  # Config Server 연결 실패시에도 애플리케이션 시작 (개발 환경용)
+      uri: ${CONFIG_SERVER_URL:}
       retry:
-        initial-interval: 10000  # 초기 재시도 간격 (1초)
+        initial-interval: 1000  # 초기 재시도 간격 (1초)
         max-attempts: 3  # 최대 재시도 횟수
-        max-interval: 20000  # 최대 재시도 간격 (2초)
+        max-interval: 2000  # 최대 재시도 간격 (2초)
         multiplier: 1.1  # 재시도 간격 증가율
 
   # ===== Kafka 메시징 설정 =====
@@ -62,11 +63,9 @@ spring:
       ack-mode: manual  # 수동 승인 모드 (메시지 처리 보장)
       concurrency: 3  # 동시 처리 리스너 수
 
-
-
 # ===== 서버 포트 설정 =====
 server:
-  port: ${APP_PORT:4010}  # 서비스 포트 (환경변수로 오버라이드 가능)
+  port: ${APP_PORT:4020}  # 서비스 포트 (환경변수로 오버라이드 가능)
   shutdown: graceful  # 종료 (진행중인 요청 완료 후 종료)
 
 # ===== Eureka Client 설정 =====
@@ -86,7 +85,7 @@ eureka:
     fetch-registry: true  # Eureka 레지스트리 정보 가져오기
     service-url:
       # Eureka 서버 URL (고가용성을 위해 2개 서버 지정)
-      defaultZone: ${EUREKA_DEFAULT_ZONE:http://192.168.0.56:3150/eureka/,http://192.168.0.56:3151/eureka/}
+      defaultZone: ${EUREKA_DEFAULT_ZONE:http://localhost:3150/eureka/,http://localhost:3151/eureka/}
     registry-fetch-interval-seconds: 5  # 레지스트리 갱신 간격 (5초)
 
 springdoc:
@@ -102,7 +101,7 @@ springdoc:
     oauth2-redirect-url: /swagger-ui/oauth2-redirect.html
   # 실제 서버 URL 설정 (프록시 URL)
   server:
-    url: http://localhost:4010
+    url: http://localhost:4020
 
 
 # ========================================
@@ -118,7 +117,6 @@ springdoc:
 
 # 예시 2: 특정 서비스의 Kafka 토픽 커스터마이징
 # spring:
-#   cloud:
 #   cloud:
 #     stream:
 #       bindings:

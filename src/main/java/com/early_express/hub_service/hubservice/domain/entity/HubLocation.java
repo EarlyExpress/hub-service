@@ -1,4 +1,4 @@
-package com.early_express.hub_service.domain.entity;
+package com.early_express.hub_service.hubservice.domain.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
