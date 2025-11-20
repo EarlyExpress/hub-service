@@ -1,4 +1,4 @@
-package com.early_express.hub_service.hubservice.infrastructure.presentatation.dto;
+package com.early_express.hub_service.hubservice.infrastructure.presentation.web.request;
 
 public record HubRequest(
         String hubName,

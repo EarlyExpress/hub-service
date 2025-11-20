@@ -4,6 +4,7 @@ import com.early_express.hub_service.global.infrastructure.entity.BaseEntity;
 import com.early_express.hub_service.hubservice.domain.dto.HubDto;
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.SQLDelete;
 import org.springframework.util.StringUtils;
 
 import java.util.List;
@@ -15,6 +16,7 @@ import java.util.Objects;
 @Entity
 @Access(AccessType.FIELD)
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+@SQLDelete(sql = "UPDATE hub SET is_deleted = true WHERE id = ?")
 public class HubEntity extends BaseEntity {
 
     @Id

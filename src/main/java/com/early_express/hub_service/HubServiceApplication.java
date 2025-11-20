@@ -4,7 +4,7 @@ import com.early_express.hub_service.hubservice.application.service.HubCreateSer
 import com.early_express.hub_service.hubservice.domain.entity.HubEntity;
 import com.early_express.hub_service.hubservice.domain.repository.HubRepository;
 import com.early_express.hub_service.hubservice.infrastructure.data.HubData;
-import com.early_express.hub_service.hubservice.infrastructure.presentatation.dto.HubRequest;
+import com.early_express.hub_service.hubservice.infrastructure.presentation.web.request.HubRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

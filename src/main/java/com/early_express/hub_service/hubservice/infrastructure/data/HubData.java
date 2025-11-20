@@ -1,6 +1,6 @@
 package com.early_express.hub_service.hubservice.infrastructure.data;
 
-import com.early_express.hub_service.hubservice.infrastructure.presentatation.dto.HubRequest;
+import com.early_express.hub_service.hubservice.infrastructure.presentation.web.request.HubRequest;
 
 import java.util.HashMap;
 import java.util.List;
