@@ -1,4 +1,4 @@
-package com.early_express.hub_service.domain.entity;
+package com.early_express.hub_service.hubservice.domain.entity;
 
 import java.util.List;
 
@@ -7,5 +7,9 @@ import java.util.List;
  *
  */
 public interface HubAddressToCoords {
+
+
     List<Double> convert(String address);
+
+
 }
