@@ -9,14 +9,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
-import java.util.UUID;
 
 @Getter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Schema(description = "허브 수정 요청 응답")
-public class HubResponse {
+public class HubUpdateResponse {
     Long id;
     String hubName;
     Long centralHubId;
@@ -27,8 +26,8 @@ public class HubResponse {
     LocalDateTime modifiedAt;
     HubStatus hubStatue;
 
-    public static HubResponse of(HubEntity hub) {
-        return HubResponse.builder()
+    public static HubUpdateResponse of(HubEntity hub) {
+        return HubUpdateResponse.builder()
                 .hubName(hub.getHubName())
                 .address(hub.getLocation().getAddress())
                 .hubStatue(hub.getStatus())

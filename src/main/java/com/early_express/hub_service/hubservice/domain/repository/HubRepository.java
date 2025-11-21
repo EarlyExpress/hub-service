@@ -11,4 +11,6 @@ import java.util.UUID;
 public interface HubRepository extends JpaRepository<HubEntity, Long> {
 
     List<HubEntity> findByCentralHubIdIsNull();
+
+    List<HubEntity> findByIsDeletedIsFalse();
 }

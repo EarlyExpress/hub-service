@@ -1,6 +1,6 @@
 package com.early_express.hub_service.hubservice.infrastructure.data;
 
-import com.early_express.hub_service.hubservice.infrastructure.presentation.web.request.HubRequest;
+import com.early_express.hub_service.hubservice.infrastructure.presentation.web.request.HubCreateRequest;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,10 +8,10 @@ import java.util.Map;
 
 public class HubData {
 
-    public static final List<HubRequest> CENTRAL_HUBS = List.of(
-            new HubRequest("경기 남부 센터", null, "경기도 이천시 덕평로 257-21"),
-            new HubRequest("대전광역시 센터", null, "대전 서구 둔산로 100"),
-            new HubRequest("대구광역시 센터", null, "대구 북구 태평로 161")
+    public static final List<HubCreateRequest> CENTRAL_HUBS = List.of(
+            new HubCreateRequest("경기 남부 센터", null, "경기도 이천시 덕평로 257-21"),
+            new HubCreateRequest("대전광역시 센터", null, "대전 서구 둔산로 100"),
+            new HubCreateRequest("대구광역시 센터", null, "대구 북구 태평로 161")
 
     );
 
