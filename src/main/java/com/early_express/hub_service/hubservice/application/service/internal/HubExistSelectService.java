@@ -1,26 +1,21 @@
-package com.early_express.hub_service.hubservice.application.service;
-
+package com.early_express.hub_service.hubservice.application.service.internal;
 
 import com.early_express.hub_service.hubservice.domain.entity.HubEntity;
 import com.early_express.hub_service.hubservice.domain.exception.HubErrorCode;
 import com.early_express.hub_service.hubservice.domain.exception.HubException;
 import com.early_express.hub_service.hubservice.domain.repository.HubRepository;
-import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @RequiredArgsConstructor
-public class HubDeleteService {
+@Transactional
+public class HubExistSelectService {
 
     private final HubRepository hubrepository;
 
-    @Transactional
-    public void delete(Long id) {
-
-        HubEntity hub = hubrepository.findById(id)
-                .orElseThrow(() -> new HubException(HubErrorCode.HUB_NOT_FOUND));
-
-        hubrepository.delete(hub);
+    public boolean getExistHub(Long id) {
+        return hubrepository.existsById(id);
     }
 }
