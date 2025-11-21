@@ -1,7 +1,6 @@
 package com.early_express.hub_service.hubservice.domain.entity;
 
 import com.early_express.hub_service.global.infrastructure.entity.BaseEntity;
-import com.early_express.hub_service.hubservice.domain.dto.HubDto;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.SQLDelete;
@@ -111,18 +110,5 @@ public class HubEntity extends BaseEntity {
         this.status = hubStatue;
     }
 
-    public HubDto toDto() {
-        return HubDto.builder()
-                .id(hubId)
-                .centralHubId(centralHubId)
-                .hubName(hubName)
-                .address(location.getAddress())
-                .latitude(location.getLatitude())
-                .longitude(location.getLongitude())
-                .createdAt(getCreatedAt())
-                .modifiedAt(getUpdatedAt())
-                .hubStatue(status)
-                .build();
-    }
 
 }

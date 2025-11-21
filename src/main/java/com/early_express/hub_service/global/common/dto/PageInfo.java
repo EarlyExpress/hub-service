@@ -1,5 +1,8 @@
 package com.early_express.hub_service.global.common.dto;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Getter;
 
@@ -20,9 +23,16 @@ public class PageInfo {
     private final boolean empty;
     private final List<SortInfo> sort;
 
+    @JsonCreator
     @Builder
-    private PageInfo(int page, int size, long totalElements,
-                     int totalPages, int numberOfElements, List<SortInfo> sort) {
+    private PageInfo(
+            @JsonProperty("page") int page,
+            @JsonProperty("size") int size,
+            @JsonProperty("totalElements") long totalElements,
+            @JsonProperty("totalPages") int totalPages,
+            @JsonProperty("numberOfElements") int numberOfElements,
+            @JsonProperty("sort") List<SortInfo> sort
+    ) {
         validateParameters(page, size, totalElements, totalPages);
 
         this.page = page;
@@ -78,15 +88,27 @@ public class PageInfo {
         }
     }
 
+
     /**
      * 정렬 정보를 담는 내부 클래스
      */
     @Getter
-    @Builder
     public static class SortInfo {
         private final String property;
         private final Direction direction;
         private final boolean ignoreCase;
+
+        @JsonCreator
+        @Builder
+        private SortInfo(
+                @JsonProperty("property") String property,
+                @JsonProperty("direction") Direction direction,
+                @JsonProperty("ignoreCase") boolean ignoreCase
+        ) {
+            this.property = property;
+            this.direction = direction;
+            this.ignoreCase = ignoreCase;
+        }
 
         public enum Direction {
             ASC, DESC
