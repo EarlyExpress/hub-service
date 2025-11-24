@@ -1,8 +1,9 @@
 package com.early_express.hub_service.hubservice.application.service.web.all;
 
 
-import com.early_express.hub_service.hubservice.domain.dto.response.HubAllResponse;
-import com.early_express.hub_service.hubservice.domain.entity.HubEntity;
+import com.early_express.hub_service.hubservice.domain.dto.hub.response.HubAllResponse;
+
+import com.early_express.hub_service.hubservice.domain.entity.hub.HubEntity;
 import com.early_express.hub_service.hubservice.domain.exception.HubErrorCode;
 import com.early_express.hub_service.hubservice.domain.exception.HubException;
 import com.early_express.hub_service.hubservice.domain.repository.HubRepository;

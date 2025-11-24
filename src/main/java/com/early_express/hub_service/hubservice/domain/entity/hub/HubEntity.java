@@ -1,4 +1,4 @@
-package com.early_express.hub_service.hubservice.domain.entity;
+package com.early_express.hub_service.hubservice.domain.entity.hub;
 
 import com.early_express.hub_service.global.infrastructure.entity.BaseEntity;
 import jakarta.persistence.*;
@@ -35,7 +35,7 @@ public class HubEntity extends BaseEntity {
     private HubStatus status;
 
     @Builder
-    public HubEntity(Long hubId, Long centralHubId,String hubName, String address, HubAddressToCoords addressToCoords, HubRoleCheck hubRoleCheck) {
+    public HubEntity(Long hubId, Long centralHubId, String hubName, String address, HubAddressToCoords addressToCoords, HubRoleCheck hubRoleCheck) {
 //        hubRoleCheck.masterCheck(); // 허브 등록 수정은 마스터 권한으로 한정
 
 //        this.hubid = Objects.requireNonNullElse(hubid, HubId.of());

@@ -1,7 +1,7 @@
-package com.early_express.hub_service.hubservice.domain.dto.response;
+package com.early_express.hub_service.hubservice.domain.dto.hub.response;
 
-import com.early_express.hub_service.hubservice.domain.entity.HubEntity;
-import com.early_express.hub_service.hubservice.domain.entity.HubStatus;
+import com.early_express.hub_service.hubservice.domain.entity.hub.HubEntity;
+import com.early_express.hub_service.hubservice.domain.entity.hub.HubStatus;
 import lombok.Builder;
 
 import java.io.Serializable;

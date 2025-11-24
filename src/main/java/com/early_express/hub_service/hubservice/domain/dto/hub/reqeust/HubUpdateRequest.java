@@ -1,7 +1,6 @@
-package com.early_express.hub_service.hubservice.domain.dto.reqeust;
+package com.early_express.hub_service.hubservice.domain.dto.hub.reqeust;
 
-
-import com.early_express.hub_service.hubservice.domain.entity.HubStatus;
+import com.early_express.hub_service.hubservice.domain.entity.hub.HubStatus;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
