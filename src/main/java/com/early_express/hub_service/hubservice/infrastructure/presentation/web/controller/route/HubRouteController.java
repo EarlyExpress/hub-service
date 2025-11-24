@@ -1,4 +1,4 @@
-package com.early_express.hub_service.hubservice.infrastructure.presentation.inernal;
+package com.early_express.hub_service.hubservice.infrastructure.presentation.web.controller.route;
 
 import com.early_express.hub_service.hubservice.application.service.web.route.HubRouteCalculatorService;
 import com.early_express.hub_service.hubservice.domain.dto.route.request.HubRouteCalculationRequest;
@@ -8,13 +8,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/test/hub")
+@RequestMapping("/v1/hub/internal/route")
 @RequiredArgsConstructor
-public class HubRouterController {
+public class HubRouteController {
 
     private final HubRouteCalculatorService routeCalculator;
 
-    @PostMapping("/route")
+    @PostMapping("/calculate")
     public ResponseEntity<HubRouteCalculationResponse> testRoute(@RequestBody HubRouteCalculationRequest request) {
 //        HubRouteCalculationRequest req = new HubRouteCalculationRequest(
 //                "ORD-123456",
