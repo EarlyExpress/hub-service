@@ -1,6 +1,6 @@
 package com.early_express.hub_service.hubservice.infrastructure.presentation.inernal;
 
-import com.early_express.hub_service.hubservice.application.service.internal.HubRouteCalculatorService;
+import com.early_express.hub_service.hubservice.application.service.web.route.HubRouteCalculatorService;
 import com.early_express.hub_service.hubservice.domain.dto.route.request.HubRouteCalculationRequest;
 import com.early_express.hub_service.hubservice.domain.dto.route.response.HubRouteCalculationResponse;
 import lombok.RequiredArgsConstructor;

@@ -1,8 +1,9 @@
-package com.early_express.hub_service.hubservice.domain.entity.route;
+package com.early_express.hub_service.hubservice.application.service.web.route;
 
 import com.early_express.hub_service.hubservice.domain.dto.route.request.HubDistance;
 import com.early_express.hub_service.hubservice.domain.dto.route.request.HubEdge;
 import com.early_express.hub_service.hubservice.domain.entity.hub.HubEntity;
+import com.early_express.hub_service.hubservice.domain.entity.route.HubRouteEntity;
 import com.early_express.hub_service.hubservice.domain.repository.HubRepository;
 import com.early_express.hub_service.hubservice.domain.repository.HubRouteRepository;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package com.early_express.hub_service.hubservice.application.service.web.all;
+package com.early_express.hub_service.hubservice.application.service.web.hub.all;
 
 
 import com.early_express.hub_service.hubservice.domain.dto.hub.response.HubAllResponse;

@@ -1,10 +1,10 @@
 package com.early_express.hub_service.hubservice.infrastructure.presentation.web.controller.master;
 
 
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterCreateService;
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterDeleteService;
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterSelectService;
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterUpdateService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterCreateService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterDeleteService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterSelectService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterUpdateService;
 import com.early_express.hub_service.hubservice.domain.dto.hub.reqeust.HubUpdateRequest;
 import com.early_express.hub_service.hubservice.domain.dto.hub.response.HubMasterSelectResponse;
 import com.early_express.hub_service.hubservice.domain.dto.hub.response.HubUpdateResponse;

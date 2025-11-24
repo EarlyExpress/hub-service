@@ -1,4 +1,4 @@
-package com.early_express.hub_service.hubservice.application.service.web.master;
+package com.early_express.hub_service.hubservice.application.service.web.hub.master;
 
 
 

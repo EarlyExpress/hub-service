@@ -1,6 +1,6 @@
 package com.early_express.hub_service;
 
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterCreateService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterCreateService;
 import com.early_express.hub_service.hubservice.domain.entity.hub.HubEntity;
 import com.early_express.hub_service.hubservice.domain.repository.HubRepository;
 import com.early_express.hub_service.hubservice.infrastructure.data.HubData;

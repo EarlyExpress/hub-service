@@ -1,6 +1,6 @@
 package com.early_express.hub_service.hubservice.infrastructure.presentation.web.controller.all;
 
-import com.early_express.hub_service.hubservice.application.service.web.all.HubAllSelectService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.all.HubAllSelectService;
 import com.early_express.hub_service.hubservice.domain.dto.hub.response.HubAllResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
