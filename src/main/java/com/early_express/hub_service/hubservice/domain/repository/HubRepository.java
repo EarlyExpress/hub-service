@@ -1,6 +1,6 @@
 package com.early_express.hub_service.hubservice.domain.repository;
 
-import com.early_express.hub_service.hubservice.domain.entity.HubEntity;
+import com.early_express.hub_service.hubservice.domain.entity.hub.HubEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -13,4 +13,5 @@ public interface HubRepository extends JpaRepository<HubEntity, Long> {
     List<HubEntity> findByCentralHubIdIsNull();
 
     List<HubEntity> findByIsDeletedIsFalse();
+
 }

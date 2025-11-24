@@ -1,4 +1,4 @@
-package com.early_express.hub_service.hubservice.domain.entity;
+package com.early_express.hub_service.hubservice.domain.entity.hub;
 
 import java.util.List;
 

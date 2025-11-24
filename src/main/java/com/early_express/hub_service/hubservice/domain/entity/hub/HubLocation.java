@@ -1,9 +1,10 @@
-package com.early_express.hub_service.hubservice.domain.entity;
+package com.early_express.hub_service.hubservice.domain.entity.hub;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.Entity;
 import lombok.*;
+
+import java.util.List;
 
 @Getter
 @ToString
@@ -20,5 +21,12 @@ public class HubLocation {
         this.address = address;
         this.latitude = latitude;
         this.longitude = longitude;
+    }
+
+    /**
+     * 위도/경도를 리스트로 반환
+     */
+    public List<Double> getCoords() {
+        return List.of(this.latitude,this.longitude);
     }
 }

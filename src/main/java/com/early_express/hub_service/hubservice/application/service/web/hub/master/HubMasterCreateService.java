@@ -1,7 +1,7 @@
 package com.early_express.hub_service.hubservice.application.service.web.master;
 
-import com.early_express.hub_service.hubservice.domain.entity.HubAddressToCoords;
-import com.early_express.hub_service.hubservice.domain.entity.HubEntity;
+import com.early_express.hub_service.hubservice.domain.entity.hub.HubAddressToCoords;
+import com.early_express.hub_service.hubservice.domain.entity.hub.HubEntity;
 import com.early_express.hub_service.hubservice.domain.exception.HubException;
 import com.early_express.hub_service.hubservice.domain.repository.HubRepository;
 import com.early_express.hub_service.hubservice.infrastructure.presentation.web.request.HubCreateRequest;
