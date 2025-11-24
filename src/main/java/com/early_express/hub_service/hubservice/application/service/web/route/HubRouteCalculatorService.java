@@ -1,10 +1,9 @@
-package com.early_express.hub_service.hubservice.application.service.internal;
+package com.early_express.hub_service.hubservice.application.service.web.route;
 
 import com.early_express.hub_service.hubservice.domain.dto.route.request.HubRouteCalculationRequest;
 import com.early_express.hub_service.hubservice.domain.dto.route.response.HubRouteCalculationResponse;
 import com.early_express.hub_service.hubservice.domain.dto.route.response.HubSegment;
 import com.early_express.hub_service.hubservice.domain.entity.hub.HubEntity;
-import com.early_express.hub_service.hubservice.domain.entity.route.DijkstraPathFinder;
 import com.early_express.hub_service.hubservice.domain.entity.route.DistanceCalculator;
 import com.early_express.hub_service.hubservice.domain.repository.HubRepository;
 import com.early_express.hub_service.hubservice.infrastructure.api.HubAddressApi;

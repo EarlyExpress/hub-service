@@ -1,4 +1,4 @@
-package com.early_express.hub_service.hubservice.application.service.web.route;
+package com.early_express.hub_service.hubservice.domain.entity.route;
 
 import java.util.List;
 
