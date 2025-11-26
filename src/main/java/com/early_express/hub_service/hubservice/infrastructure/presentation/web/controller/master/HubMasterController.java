@@ -17,7 +17,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("v1/hub/web/master")
+//@RequestMapping("v1/hub/web/master")
+@RequestMapping("/web/master")
 @RequiredArgsConstructor
 public class HubMasterController {
 

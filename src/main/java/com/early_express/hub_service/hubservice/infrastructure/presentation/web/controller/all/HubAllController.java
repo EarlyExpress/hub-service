@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("v1/hub/web/all")
+@RequestMapping("/web/all")
 @RequiredArgsConstructor
 public class HubAllController
 {
