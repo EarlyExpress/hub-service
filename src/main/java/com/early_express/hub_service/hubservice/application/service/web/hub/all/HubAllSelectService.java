@@ -21,7 +21,7 @@ public class HubAllSelectService {
     private final HubRepository hubRepository;
     private final HubRepository hubrepository;
 
-    @Cacheable(cacheNames = "hub", key = "'allHubAllResponse'", cacheManager = "cacheManager")
+    @Cacheable(cacheNames = "hub", key = "'all'", cacheManager = "cacheManager")
     public List<HubAllResponse> getAllHubs() {
         List<HubEntity> hubs = hubRepository.findByIsDeletedIsFalse();
         return hubs.stream()
@@ -29,7 +29,7 @@ public class HubAllSelectService {
                 .collect(Collectors.toList());
     }
 
-    @Cacheable(cacheNames = "hub", key = "'oneHubAllResponse'", cacheManager = "cacheManager")
+    @Cacheable(cacheNames = "hub", key = "#id", cacheManager = "cacheManager")
     public HubAllResponse getOneHubs(Long id) {
         HubEntity hub = hubrepository.findById(id)
                 .orElseThrow(() -> new HubException(HubErrorCode.HUB_NOT_FOUND));

@@ -27,7 +27,7 @@ public class HubMasterSelectService {
 //        PageResponse<HubDto> response= PageUtils.toPageResponse(hubPage, HubDto::of);
 //        return response;
 //    }
-    @Cacheable(cacheNames = "hub", key = "'allHubMasterResponse'", cacheManager = "cacheManager")
+    @Cacheable(cacheNames = "hub", key = "'master'", cacheManager = "cacheManager")
     public List<HubMasterSelectResponse> getAllHubs() {
         List<HubEntity> hubs = hubRepository.findAll();
         return hubs.stream()
@@ -35,7 +35,8 @@ public class HubMasterSelectService {
                 .collect(Collectors.toList());
     }
 
-    @Cacheable(cacheNames = "hub", key = "'oneHubMasterResponse'", cacheManager = "cacheManager")
+    @Cacheable(cacheNames = "hub", key = " #id", cacheManager = "cacheManager")
+
     public HubMasterSelectResponse getOneHubs(Long id) {
         HubEntity hub = hubRepository.findById(id)
                 .orElseThrow(() -> new HubException(HubErrorCode.HUB_NOT_FOUND));
