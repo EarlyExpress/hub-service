@@ -1,6 +1,6 @@
 package com.early_express.hub_service.hubservice.infrastructure.api;
 
-import com.early_express.hub_service.hubservice.domain.entity.HubAddressToCoords;
+import com.early_express.hub_service.hubservice.domain.entity.hub.HubAddressToCoords;
 import com.early_express.hub_service.hubservice.domain.exception.HubException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,11 +10,7 @@ import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
-import org.springframework.web.client.RestClientException;
-import org.springframework.web.client.HttpClientErrorException;
-import org.springframework.web.client.HttpServerErrorException;
 
-import java.net.SocketTimeoutException;
 import java.util.List;
 
 import static com.early_express.hub_service.global.presentation.exception.GlobalErrorCode.*;
@@ -31,7 +27,6 @@ public class HubAddressApi implements HubAddressToCoords {
 
     @Override
     public List<Double> convert(String address) {
-
         String url = "https://dapi.kakao.com/v2/local/search/address.json?query=" + address;
 
         try {
@@ -41,7 +36,6 @@ public class HubAddressApi implements HubAddressToCoords {
                     .header("Authorization", "KakaoAK " + apiKey)
                     .retrieve()
                     .toEntity(String.class);
-
             HttpStatusCode status = response.getStatusCode();
 
             if (status.is2xxSuccessful()) {
@@ -64,10 +58,10 @@ public class HubAddressApi implements HubAddressToCoords {
 
                 return List.of(x, y);
             }
-
             throw new HubException(EXTERNAL_API_ERROR);
 
         }  catch (Exception e) {
+            e.printStackTrace();
             throw new HubException(INTERNAL_SERVER_ERROR);
         }
     }

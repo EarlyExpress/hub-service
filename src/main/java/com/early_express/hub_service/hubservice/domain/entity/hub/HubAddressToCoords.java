@@ -1,0 +1,15 @@
+package com.early_express.hub_service.hubservice.domain.entity.hub;
+
+import java.util.List;
+
+/**
+ * 허브의 주소를 위도, 경도 좌표로 변경
+ *
+ */
+public interface HubAddressToCoords {
+
+
+    List<Double> convert(String address);
+
+
+}

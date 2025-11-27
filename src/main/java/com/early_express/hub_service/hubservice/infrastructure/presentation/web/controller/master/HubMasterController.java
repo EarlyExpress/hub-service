@@ -1,13 +1,13 @@
 package com.early_express.hub_service.hubservice.infrastructure.presentation.web.controller.master;
 
 
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterCreateService;
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterDeleteService;
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterSelectService;
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterUpdateService;
-import com.early_express.hub_service.hubservice.domain.dto.reqeust.HubUpdateRequest;
-import com.early_express.hub_service.hubservice.domain.dto.response.HubMasterSelectResponse;
-import com.early_express.hub_service.hubservice.domain.dto.response.HubUpdateResponse;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterCreateService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterDeleteService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterSelectService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterUpdateService;
+import com.early_express.hub_service.hubservice.domain.dto.hub.reqeust.HubUpdateRequest;
+import com.early_express.hub_service.hubservice.domain.dto.hub.response.HubMasterSelectResponse;
+import com.early_express.hub_service.hubservice.domain.dto.hub.response.HubUpdateResponse;
 import com.early_express.hub_service.hubservice.infrastructure.presentation.web.request.HubCreateRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -17,7 +17,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("v1/hub/web/master")
+//@RequestMapping("v1/hub/web/master")
+@RequestMapping("/web/master")
 @RequiredArgsConstructor
 public class HubMasterController {
 

@@ -1,6 +1,6 @@
 package com.early_express.hub_service;
 
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterSelectService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterSelectService;
 import com.early_express.hub_service.hubservice.domain.repository.HubRepository;
 import com.early_express.hub_service.hubservice.infrastructure.presentation.web.request.HubCreateRequest;
 import com.early_express.hub_service.hubservice.infrastructure.redis.repository.HubCacheRepository;
@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cache.CacheManager;
-import com.early_express.hub_service.hubservice.application.service.web.master.HubMasterCreateService;
+import com.early_express.hub_service.hubservice.application.service.web.hub.master.HubMasterCreateService;
 
 import static org.hibernate.validator.internal.util.Contracts.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;

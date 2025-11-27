@@ -3,6 +3,8 @@ package com.early_express.hub_service.hubservice.infrastructure.redis.config;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.databind.jsontype.BasicPolymorphicTypeValidator;
+import com.fasterxml.jackson.databind.jsontype.PolymorphicTypeValidator;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
@@ -31,28 +33,31 @@ public class RedisConfig {
     private final RedisProperties redisProperties;
 
     @Bean
-    public RedisConnectionFactory redisConnectionFactory() {
-        return new LettuceConnectionFactory(redisProperties.getHost(), redisProperties.getPort());
-    }
-
-    @Bean
     public CacheManager cacheManager(RedisConnectionFactory factory) {
+
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.registerModule(new JavaTimeModule());
-        objectMapper.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL);
-        GenericJackson2JsonRedisSerializer genericJackson2JsonRedisSerializer = new GenericJackson2JsonRedisSerializer(objectMapper);
+        objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+        objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 
+        // ❗ activateDefaultTyping() 절대 사용하지 말 것
+        // GenericJackson2JsonRedisSerializer 가 타입정보 포함 기능을 이미 가지고 있음
+
+        GenericJackson2JsonRedisSerializer serializer =
+                new GenericJackson2JsonRedisSerializer(objectMapper);
 
         RedisCacheConfiguration cacheConfig = RedisCacheConfiguration.defaultCacheConfig()
-                .serializeKeysWith(RedisSerializationContext
-                        .SerializationPair.fromSerializer(new StringRedisSerializer()))
-                .serializeValuesWith(RedisSerializationContext
-                        .SerializationPair.fromSerializer(genericJackson2JsonRedisSerializer));
+                .serializeKeysWith(
+                        RedisSerializationContext.SerializationPair.fromSerializer(new StringRedisSerializer()))
+                .serializeValuesWith(
+                        RedisSerializationContext.SerializationPair.fromSerializer(serializer))
+                .entryTtl(Duration.ofHours(3));
 
-        return RedisCacheManager
-                .RedisCacheManagerBuilder
-                .fromConnectionFactory(factory)
+        return RedisCacheManager.builder(factory)
                 .cacheDefaults(cacheConfig)
                 .build();
     }
+
+
+
 }
